@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		2CFE2BC1226295A400AEF14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BC0226295A400AEF14A /* AppDelegate.swift */; };
 		2CFE2BC3226295A400AEF14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BC2226295A400AEF14A /* ViewController.swift */; };
-		2CFE2BC6226295A400AEF14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2BC4226295A400AEF14A /* Main.storyboard */; };
 		2CFE2BC8226295A700AEF14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2BC7226295A700AEF14A /* Assets.xcassets */; };
 		2CFE2BCB226295A700AEF14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2BC9226295A700AEF14A /* LaunchScreen.storyboard */; };
+		2CFE2BD4226295D700AEF14A /* CigaretteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BD2226295D700AEF14A /* CigaretteModel.xcdatamodeld */; };
+		2CFE2BD6226295F000AEF14A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BD5226295F000AEF14A /* CoreDataStack.swift */; };
+		2CFE2BDB2262960F00AEF14A /* Smoke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BD72262960F00AEF14A /* Smoke+CoreDataClass.swift */; };
+		2CFE2BDC2262960F00AEF14A /* Smoke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BD82262960F00AEF14A /* Smoke+CoreDataProperties.swift */; };
+		2CFE2BDD2262960F00AEF14A /* Cigarette+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BD92262960F00AEF14A /* Cigarette+CoreDataClass.swift */; };
+		2CFE2BDE2262960F00AEF14A /* Cigarette+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE2BDA2262960F00AEF14A /* Cigarette+CoreDataProperties.swift */; };
+		2CFE2BE02262964F00AEF14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE2BDF2262964E00AEF14A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CFE2BBD226295A400AEF14A /* TheSmokesCounter-coreData3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheSmokesCounter-coreData3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFE2BC0226295A400AEF14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CFE2BC2226295A400AEF14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CFE2BC5226295A400AEF14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFE2BC7226295A700AEF14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFE2BCA226295A700AEF14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CFE2BCC226295A700AEF14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFE2BD3226295D700AEF14A /* CigaretteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CigaretteModel.xcdatamodel; sourceTree = "<group>"; };
+		2CFE2BD5226295F000AEF14A /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		2CFE2BD72262960F00AEF14A /* Smoke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smoke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CFE2BD82262960F00AEF14A /* Smoke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smoke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CFE2BD92262960F00AEF14A /* Cigarette+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cigarette+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CFE2BDA2262960F00AEF14A /* Cigarette+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cigarette+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CFE2BDF2262964E00AEF14A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +66,17 @@
 		2CFE2BBF226295A400AEF14A /* TheSmokesCounter-coreData3 */ = {
 			isa = PBXGroup;
 			children = (
+				2CFE2BD72262960F00AEF14A /* Smoke+CoreDataClass.swift */,
+				2CFE2BD82262960F00AEF14A /* Smoke+CoreDataProperties.swift */,
+				2CFE2BD92262960F00AEF14A /* Cigarette+CoreDataClass.swift */,
+				2CFE2BDA2262960F00AEF14A /* Cigarette+CoreDataProperties.swift */,
 				2CFE2BC0226295A400AEF14A /* AppDelegate.swift */,
 				2CFE2BC2226295A400AEF14A /* ViewController.swift */,
-				2CFE2BC4226295A400AEF14A /* Main.storyboard */,
 				2CFE2BC7226295A700AEF14A /* Assets.xcassets */,
+				2CFE2BD2226295D700AEF14A /* CigaretteModel.xcdatamodeld */,
+				2CFE2BDF2262964E00AEF14A /* Main.storyboard */,
 				2CFE2BC9226295A700AEF14A /* LaunchScreen.storyboard */,
+				2CFE2BD5226295F000AEF14A /* CoreDataStack.swift */,
 				2CFE2BCC226295A700AEF14A /* Info.plist */,
 			);
 			path = "TheSmokesCounter-coreData3";
@@ -122,9 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE2BE02262964F00AEF14A /* Main.storyboard in Resources */,
 				2CFE2BCB226295A700AEF14A /* LaunchScreen.storyboard in Resources */,
 				2CFE2BC8226295A700AEF14A /* Assets.xcassets in Resources */,
-				2CFE2BC6226295A400AEF14A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +153,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE2BDE2262960F00AEF14A /* Cigarette+CoreDataProperties.swift in Sources */,
+				2CFE2BDB2262960F00AEF14A /* Smoke+CoreDataClass.swift in Sources */,
+				2CFE2BD4226295D700AEF14A /* CigaretteModel.xcdatamodeld in Sources */,
 				2CFE2BC3226295A400AEF14A /* ViewController.swift in Sources */,
 				2CFE2BC1226295A400AEF14A /* AppDelegate.swift in Sources */,
+				2CFE2BD6226295F000AEF14A /* CoreDataStack.swift in Sources */,
+				2CFE2BDC2262960F00AEF14A /* Smoke+CoreDataProperties.swift in Sources */,
+				2CFE2BDD2262960F00AEF14A /* Cigarette+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CFE2BC4226295A400AEF14A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CFE2BC5226295A400AEF14A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CFE2BC9226295A700AEF14A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +352,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CFE2BD2226295D700AEF14A /* CigaretteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CFE2BD3226295D700AEF14A /* CigaretteModel.xcdatamodel */,
+			);
+			currentVersion = 2CFE2BD3226295D700AEF14A /* CigaretteModel.xcdatamodel */;
+			path = CigaretteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2CFE2BB5226295A400AEF14A /* Project object */;
 }
